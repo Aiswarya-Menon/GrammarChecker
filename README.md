@@ -8,9 +8,9 @@ A simple Grammar Checker built using OpenAI and Flask to correct grammar mistake
 This project is a Grammar Checker that utilizes the OpenAI library (version 0.28) along with Flask (version 2.3.2) to identify and correct grammar mistakes in text inputs. It serves as a fun and educational project to explore OpenAI's API for language correction.
 
 ## Team Members
-1.[Aiswarya](https://github.com/Aiswarya-Menon)
-2.[Vinsu](https://github.com/vinsu353)
-3.[Viraj](https://github.com/viraka)
+1.[Aiswarya](https://github.com/Aiswarya-Menon)  
+2.[Vinsu](https://github.com/vinsu353)  
+3.[Viraj](https://github.com/viraka)  
 ## Installation
 
 To run this Grammar Checker locally, follow these steps:
