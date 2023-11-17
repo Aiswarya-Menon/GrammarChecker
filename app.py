@@ -1,10 +1,14 @@
 from flask import Flask, render_template, request
 import openai
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
 # Set your ChatGPT API key here
-openai.api_key = 'OPENAI_API_KEY'
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 
 @app.route('/')
