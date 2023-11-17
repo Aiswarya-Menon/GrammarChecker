@@ -16,7 +16,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route(baseUrl+'/check_grammar', methods=['POST'])
+@app.route('/check_grammar', methods=['POST'])
 def check_grammar():
     text_to_check = request.form['text_to_check']
 
