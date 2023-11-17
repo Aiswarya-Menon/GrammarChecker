@@ -1,4 +1,4 @@
-![API-Study-Jams]([https://prnt.sc/ErzktQculQn-](https://prnt.sc/ErzktQculQn-))
+![API-Study-Jams](https://img001.prntscr.com/file/img001/oK2k-KHkS1-5ZsCErBAySQ.png)
 # Grammar Checker with OpenAI
 
 A simple Grammar Checker built using OpenAI and Flask to correct grammar mistakes.
