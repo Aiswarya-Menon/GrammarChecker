@@ -1,3 +1,4 @@
+![API-Study-Jams](https://prnt.sc/ErzktQculQn-)
 # Grammar Checker with OpenAI
 
 A simple Grammar Checker built using OpenAI and Flask to correct grammar mistakes.
