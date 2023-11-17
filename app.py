@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-
+baseUrl = "tinkerhub-api-study-jams-e5dk-3q1ytar17-viraka.vercel.app"
 app = Flask(__name__)
 
 # Set your ChatGPT API key here
@@ -16,7 +16,7 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/check_grammar', methods=['POST'])
+@app.route(baseUrl +'/check_grammar', methods=['POST'])
 def check_grammar():
     text_to_check = request.form['text_to_check']
 
