@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-baseUrl = "tinkerhub-api-study-jams-e5dk-3q1ytar17-viraka.vercel.app"
+baseUrl = os.getenv('BASE_URL')
 app = Flask(__name__)
 
 # Set your ChatGPT API key here
